@@ -10,11 +10,12 @@ img{
 
 header{
   position: fixed;
-  width: 100%;
+  height: 100%;
   background-color: rgba(255, 255, 255, 0.9);
-  padding: 20px;
+  opacity: 0.３;
+  padding: 0.5px;
   display: flex;
-  align-items: center;
+  align-items: top;
   z-index: 100;
   top: 0;
 }
@@ -28,7 +29,17 @@ header{
   background-repeat: repeat-x;
   margin-left: auto;
 }
-
+#menu{
+  position: fixed;
+  top: 30px;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 10;
+  left: 20px;
+  z-index: 100;
+  cursor: pointer;
+  font-family: 'East Sea Dokdo', cursive;
+}
 
 #content{
   position: relative;
@@ -38,9 +49,19 @@ header{
 }
 
 .set{
+  text-align: center;
   background-color: #ccc;
-  min-height: 400px;
-  margin-bottom: 40px;
+  opacity: 0.6;
+  min-height: 520px;
+  margin-bottom: 100px;
+}
+
+.set p{
+  font-size: 60px;
+  margin-bottom: 50px;
+  padding-top: 150px;
+  
+
 }
 
 body.one #backimg01,
